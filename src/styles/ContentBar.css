@@ -1,0 +1,17 @@
+.ContentBar {
+  position: absolute;
+  width: 680px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #ffffff 0%, #f2f5fa 100%);
+}
+
+@media (max-width: 375px) {
+  .ContentBar {
+    width: 375px;
+    height: 746px;
+    background: none;
+  }
+}

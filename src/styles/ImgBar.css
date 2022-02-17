@@ -1,0 +1,32 @@
+.ImgBar {
+  position: absolute;
+  width: 1240px;
+  height: 1080px;
+  left: 680px;
+  top: 0px;
+}
+
+.ImgBar img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 375px) {
+  .ImgBar {
+    width: 375px;
+    height: 746px;
+    left: 0;
+    top: 66px;
+    object-fit: contain;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .ImgBar img {
+    object-fit: contain;
+    width: 1119px;
+    height: 746px;
+    left: -412px;
+  }
+}

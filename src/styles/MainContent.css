@@ -1,0 +1,45 @@
+.container {
+  position: absolute;
+  left: 100px;
+  top: 374px;
+  z-index: 999;
+}
+
+.social-list {
+  position: absolute;
+}
+
+.social-container {
+  position: relative;
+  width: 244px;
+  height: 46px;
+  margin: 0 0 50px 40px;
+}
+
+.line {
+  position: absolute;
+  width: 400px;
+  height: 1px;
+
+  background: #e3e3e4;
+}
+
+@media (max-width: 375px) {
+  .container {
+    position: absolute;
+    width: 335px;
+    height: 371px;
+    left: 20px;
+    top: 254px;
+    background: linear-gradient(180deg, #ffffff 0%, #f2f5fa 100%);
+  }
+
+  .line {
+    width: 295px;
+    height: 1px;
+    left: -20px;
+    top: -1px;
+
+    background: #e3e3e4;
+  }
+}

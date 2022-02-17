@@ -1,0 +1,36 @@
+.ListPage {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-table {
+  margin-bottom: 40px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+
+  width: 800px;
+  margin: -3px;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+.button {
+  text-decoration: none;
+  background: #111;
+  color: #f4f4f4;
+  padding: 10px 20px;
+}
